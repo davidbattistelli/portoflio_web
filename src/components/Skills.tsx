@@ -2,7 +2,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming & Analysis',
-      skills: ['Python', 'MATLAB', 'Numerical Analysis', 'Data Visualization', 'Computational Physics'],
+      skills: ['Python', 'MATLAB'],
     },
     {
       title: 'Engineering Software',
@@ -24,7 +24,7 @@ const Skills = () => {
       className="section-padding bg-gray-50 dark:bg-slate-950"
     >
       <div className="container-custom">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">
             Skills
           </h2>

@@ -24,11 +24,16 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
   const [isDark, setIsDark] = useState(() => {
     // Check localStorage first, default to dark mode
     const stored = localStorage.getItem('theme')
-    if (stored) {
-      return stored === 'dark'
+    const shouldBeDark = stored ? stored === 'dark' : true
+
+    // Set the initial dark class immediately
+    if (shouldBeDark) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
     }
-    // Default to dark mode like the reference site
-    return true
+
+    return shouldBeDark
   })
 
   useEffect(() => {

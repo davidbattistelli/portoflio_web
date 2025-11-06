@@ -12,7 +12,7 @@ const Header = ({ isScrolled }: HeaderProps) => {
 
   const navItems = [
     { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
+    { label: 'About Me', href: '#about' },
     { label: 'Skills', href: '#skills' },
     { label: 'Portfolio', href: '#projects' },
     { label: 'Contact', href: '#contact' },
