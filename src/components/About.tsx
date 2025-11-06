@@ -1,40 +1,40 @@
 const About = () => {
   const timeline = [
     {
-      year: '2024 - Presente',
+      year: '2024 - Present',
       type: 'Experience',
       institution: 'Swiss Plasma Center (EPFL)',
-      role: 'Tirocinio di Ricerca - Fusione Nucleare',
-      description: 'Lavoro su progetti di ricerca avanzata nel campo della fusione nucleare, sviluppando framework per l\'integrazione di codici di simulazione e l\'analisi di reattori tokamak come TCV (Tokamak à Configuration Variable).',
+      role: 'Research Internship - Nuclear Fusion',
+      description: 'Working on advanced research projects in nuclear fusion, developing frameworks for simulation code integration and analysis of tokamak reactors such as TCV (Tokamak à Configuration Variable).',
     },
     {
-      year: '2023 - Presente',
+      year: '2023 - Present',
       type: 'Education',
-      institution: 'Università della Tuscia',
-      role: 'Laurea Magistrale in Mechanical Engineering',
-      description: 'Approfondimento delle competenze in ingegneria meccanica con focus su simulazioni avanzate, analisi computazionale e ottimizzazione dei processi.',
+      institution: 'University of Tuscia',
+      role: 'Master\'s Degree in Mechanical Engineering',
+      description: 'Deepening mechanical engineering skills with focus on advanced simulations, computational analysis, and process optimization.',
     },
     {
       year: '2023',
       type: 'Experience',
-      institution: 'MG Sustainable Engineering AB - Uppsala, Svezia',
+      institution: 'MG Sustainable Engineering AB - Uppsala, Sweden',
       role: 'Erasmus Traineeship',
-      description: 'Creazione di un software per l\'analisi termica all\'interno dei Pannelli PVT (Photovoltaic Thermal). Sviluppo di algoritmi di simulazione e redazione di un report tecnico dettagliato sui risultati dell\'analisi.',
+      description: 'Development of software for thermal analysis of PVT (Photovoltaic Thermal) panels. Created simulation algorithms and authored a detailed technical report on analysis results.',
     },
     {
       year: '2020 - 2023',
       type: 'Education',
-      institution: 'Università della Tuscia',
-      role: 'Laurea Triennale in Ingegneria Industriale',
-      description: 'Progetto TRUST (Tuscia Research University Small Tokamak): analisi e ottimizzazione della posizione delle piastre stabilizzatrici utilizzando MATLAB e MAXFEA per ridurre il Growth Rate durante le disruption del plasma.',
+      institution: 'University of Tuscia',
+      role: 'Bachelor\'s Degree in Industrial Engineering',
+      description: 'TRUST Project (Tuscia Research University Small Tokamak): Analysis and optimization of stabilizer plate positioning using MATLAB and MAXFEA to reduce Growth Rate during plasma disruptions.',
     },
   ]
 
   const languages = [
-    { name: 'Italiano', level: 'Madrelingua' },
-    { name: 'Inglese', level: 'Avanzato' },
-    { name: 'Spagnolo', level: 'Esperto' },
-    { name: 'Francese', level: 'Base' },
+    { name: 'Italian', level: 'Native' },
+    { name: 'English', level: 'Advanced' },
+    { name: 'Spanish', level: 'Proficient' },
+    { name: 'French', level: 'Intermediate' },
   ]
 
   return (
@@ -42,7 +42,7 @@ const About = () => {
       <div className="container-custom">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-12">
-            About
+            About Me
           </h2>
 
           {/* Main Grid: My Background + Languages + Personal Info + Other Activities (left) | Timeline (right) */}
@@ -57,17 +57,17 @@ const About = () => {
                 <div className="p-7 bg-gray-50 dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700">
                   <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed">
                     <p>
-                      Sono uno studente di <strong className="text-gray-900 dark:text-gray-100">Mechanical Engineering</strong> con
-                      una forte passione per l'analisi tecnica, l'ottimizzazione dei processi e lo sviluppo software.
+                      I am a <strong className="text-gray-900 dark:text-gray-100">Mechanical Engineering</strong> student with
+                      a strong passion for technical analysis, process optimization, and software development.
                     </p>
                     <p>
-                      Attualmente sto completando la <strong className="text-gray-900 dark:text-gray-100">laurea magistrale</strong> e
-                      sto svolgendo un tirocinio presso lo <strong className="text-gray-900 dark:text-gray-100">Swiss Plasma Center (EPFL)</strong>,
-                      dove lavoro su progetti di ricerca avanzata nel campo della fusione nucleare.
+                      I am currently completing my <strong className="text-gray-900 dark:text-gray-100">master's degree</strong> and
+                      interning at the <strong className="text-gray-900 dark:text-gray-100">Swiss Plasma Center (EPFL)</strong>,
+                      where I work on advanced research projects in the field of nuclear fusion.
                     </p>
                     <p>
-                      Sono particolarmente interessato al mondo dell'<strong className="text-gray-900 dark:text-gray-100">imprenditoria e delle start-up</strong>,
-                      dove vedo l'opportunità di combinare competenze tecniche e analisi dei processi per creare soluzioni innovative.
+                      I am particularly interested in the world of <strong className="text-gray-900 dark:text-gray-100">entrepreneurship and startups</strong>,
+                      where I see the opportunity to combine technical skills and process analysis to create innovative solutions.
                     </p>
                   </div>
                 </div>
@@ -99,11 +99,11 @@ const About = () => {
                 <div className="p-5 bg-gray-50 dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700">
                   <div className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
                     <p>
-                      <strong className="text-gray-900 dark:text-gray-100">Nazionalità:</strong> Italiana
+                      <strong className="text-gray-900 dark:text-gray-100">Nationality:</strong> Italian
                     </p>
                     <p>
-                      <strong className="text-gray-900 dark:text-gray-100">Interessi:</strong> Tecnologie,
-                      Geopolitica, Project Development, Vela
+                      <strong className="text-gray-900 dark:text-gray-100">Interests:</strong> Technology,
+                      Geopolitics, Aerospace, Project Development, Sailing
                     </p>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ const About = () => {
                 <div className="p-5 bg-gradient-to-br from-primary-50 to-blue-50 dark:from-slate-800 dark:to-slate-800/50 rounded-lg border border-primary-200 dark:border-slate-700">
                   <h4 className="text-sm font-bold text-gray-900 dark:text-gray-100 mb-1">Villa Nadia - Property Management</h4>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
-                    Gestione di struttura per affitti brevi con focus su organizzazione operativa e customer experience management.
+                    Managing short-term rental property with focus on operational organization and customer experience management.
                   </p>
                 </div>
               </div>

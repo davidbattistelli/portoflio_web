@@ -1,23 +1,19 @@
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Programming Languages',
-      skills: ['Python', 'MATLAB', 'C++', 'JavaScript', 'SQL'],
+      title: 'Programming & Analysis',
+      skills: ['Python', 'MATLAB', 'Numerical Analysis', 'Data Visualization', 'Computational Physics'],
     },
     {
       title: 'Engineering Software',
-      skills: ['MAXFEA', 'CAD', 'SolidWorks', 'ANSYS', 'COMSOL'],
+      skills: ['MAXFEA', 'CAD', 'SolidWorks', 'ANSYS', 'FEM Simulation'],
     },
     {
-      title: 'Data Analysis & Simulation',
-      skills: ['Numerical Analysis', 'FEM Simulation', 'Data Visualization', 'Statistical Analysis', 'Computational Physics'],
+      title: 'Tools & Environment',
+      skills: ['Git', 'Linux', 'VS Code', 'Jupyter', 'Statistical Analysis'],
     },
     {
-      title: 'DevOps & Tools',
-      skills: ['Git', 'Docker', 'Linux', 'VS Code', 'Jupyter'],
-    },
-    {
-      title: 'Other',
+      title: 'Professional Skills',
       skills: ['Project Management', 'Technical Writing', 'Problem Solving', 'Team Collaboration'],
     },
   ]
@@ -36,17 +32,17 @@ const Skills = () => {
             A comprehensive overview of my technical competencies and tools
           </p>
 
-          <div className="space-y-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {skillCategories.map((category, index) => (
-              <div key={index}>
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
+              <div key={index} className="bg-white dark:bg-slate-800 p-6 rounded-xl border border-gray-200 dark:border-slate-700 hover:border-primary-500 dark:hover:border-primary-500 transition-all">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">
                   {category.title}
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, skillIndex) => (
                     <span
                       key={skillIndex}
-                      className="px-4 py-2 bg-white dark:bg-slate-800 text-gray-700 dark:text-gray-300 rounded-lg text-sm font-medium border border-gray-200 dark:border-slate-700 hover:border-primary-500 dark:hover:border-primary-500 hover:text-primary-600 dark:hover:text-primary-400 transition-all"
+                      className="px-3 py-1.5 bg-gray-50 dark:bg-slate-700 text-gray-700 dark:text-gray-300 rounded-md text-sm font-medium hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:text-primary-600 dark:hover:text-primary-400 transition-all"
                     >
                       {skill}
                     </span>

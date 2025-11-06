@@ -12,8 +12,8 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-gray-600 dark:text-gray-300 mb-12 max-w-2xl">
-            Sono aperto a nuove opportunità professionali, collaborazioni e progetti nel campo dell'ingegneria
-            meccanica, della ricerca scientifica e dello sviluppo software. Non esitare a contattarmi!
+            I'm open to new professional opportunities, collaborations, and projects in mechanical engineering,
+            scientific research, and software development. Feel free to reach out!
           </p>
 
           <div className="space-y-6">

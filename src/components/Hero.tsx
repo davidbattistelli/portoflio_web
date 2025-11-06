@@ -26,10 +26,10 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              Studente di Mechanical Engineering presso l'Università della Tuscia,
-              attualmente in tirocinio presso lo <strong>Swiss Plasma Center (EPFL)</strong>,
-              dove lavoro su progetti di ricerca avanzata nel campo della fusione nucleare.
-              Appassionato di innovazione tecnologica, sviluppo software e ottimizzazione dei processi.
+              Mechanical Engineering student at the University of Tuscia,
+              currently interning at the <strong>Swiss Plasma Center (EPFL)</strong>,
+              working on advanced research projects in the field of nuclear fusion.
+              Passionate about technological innovation, software development, and process optimization.
             </p>
 
             {/* CTA Buttons */}
