@@ -19,16 +19,18 @@ function App() {
   }, [])
 
   return (
-    <div className="min-h-screen">
-      <Header isScrolled={isScrolled} />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30 dark:from-slate-950 dark:via-slate-900 dark:to-slate-900 transition-colors duration-500">
+      <div className="mx-auto max-w-[2000px]">
+        <Header isScrolled={isScrolled} />
+        <main>
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
     </div>
   )
 }
