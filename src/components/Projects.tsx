@@ -45,7 +45,7 @@ const Projects = () => {
       className="section-padding bg-white dark:bg-slate-900"
     >
       <div className="container-custom">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">
             Portfolio
           </h2>
